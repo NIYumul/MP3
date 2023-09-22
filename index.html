@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MP3/PRELIM</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<style>
+.carousel-item{
+    min-height: 280px;
+}
+body{
+	position: relative; /* required */
+    padding-top: 70px;	/* prevent content to go underneath the fixed navbar */
+}
+</style>
+
+</head>
+<body class="body" data-bs-spy="scroll" data-bs-offset="60" data-bs-target="#myNavbar">
+    <center>
+        <nav id="myNavbar" class="navbar navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">MP3/Prelim</a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a href="#section1" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#section2" class="nav-link">About CpE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#section3" class="nav-link">Specialization</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#section4" class="nav-link">Student Works</a>
+                    </li>
+                    <li> 
+                        <a href="#section5" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">SCpES</a>
+                        <div class="dropdown-menu">
+                            <a href="https://www.facebook.com/uescpes" taget="_blank" class="dropdown-item">Contact Us</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+<div class="container-lg my-3">
+    <div id="section1">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+        </ol>
+        
+       
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="cpe1.jpg" class="d-block w-100" alt="Slide 1" style="height: 400px;" >
+            </div>
+            <div class="carousel-item">
+                <img src="cpe2.jpg" class="d-block w-100" alt="Slide 2" style="height: 400px;">
+            </div>
+            <div class="carousel-item">
+                <img src="cpe3.jpg" class="d-block w-100" alt="Slide 3" style="height: 400px;">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    </div>
+</div>
+<br>
+<div class="container">
+    <div id="section2">
+<div class="card" >
+   <div class="About">
+        <p>About Computer Engineering</p>
+    </div>
+   <div class="card-body">Computer engineering is a dynamic field that continues to evolve with advancements in technology. It offers a wide range of career opportunities in industries such as electronics, telecommunications, automotive, aerospace, healthcare, and more. Computer engineers are in demand globally, given the pervasive role of computers in modern society. </div>
+</div>
+<br>
+<div class="specialization">
+    <div class="block">
+        <h2 class="block-title"></h2>
+        <ul class="text-li" >
+            <div class="header">
+                <h4 class="header-title">Computer Engineering Specialization</h4>
+            </div>
+            <li>Software Development</li>
+            <li>Embedded Systems</li>
+           <li>Network Administration</li>
+            <li>Artificial Intelligence & Machine Language</li>
+        </ul>
+    </div>
+</div>
+</div>
+</div>
+<br>
+<div id="section3">
+<div class="m-4">
+    <div class="accordion" id="myAccordion">
+        <div class="accordion-item">
+            <div class="accordion-header" id="headingOne">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">1. Software Developer</button>									
+            </div>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <p> Software developers can specialize in various areas, including web development, mobile app development, game development, database management, and more. They play a crucial role in the technology industry, contributing to the creation of the software applications and systems that power our modern world.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header" id="headingTwo">
+                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">2. Web and Mobile Developer</button>
+            </div>
+            <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <p>A mobile developer is a professional who focuses on creating applications (apps) for mobile devices, such as smartphones and tablets. They typically specialize in developing apps for specific mobile platforms, such as Android or iOS.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header" id="headingThree">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">3. Machine Learning Engineer</button>                     
+            </div>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <p>Machine learning engineers play a crucial role in the development of intelligent systems and applications, ranging from recommendation systems and natural language processing to computer vision and autonomous vehicles. Their expertise bridges the gap between data science and software engineering, enabling the practical application of machine learning in various domains.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header" id="headingFour">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour">4. Data Engineer</button>                     
+            </div>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <p>data engineers play a critical role in the data ecosystem, facilitating the smooth and reliable flow of data from source to storage, making it accessible and actionable for data-driven decision-making and analysis within organizations.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header" id="headingFive">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive">5. Data Scientist</button>                     
+            </div>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <p>Data scientists play a crucial role in various industries, including healthcare, finance, marketing, and technology, where data-driven decision-making and predictive analytics are essential for improving processes, optimizing resources, and gaining a competitive edge.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header" id="headingSix">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSix">6. Project Manager</button>                     
+            </div>
+            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <p>Project managers work in various industries and fields, managing a wide range of projects, from construction and IT projects to marketing campaigns and product development initiatives. Their role is critical in ensuring that projects are executed successfully, delivering value to organizations and clients.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header" id="headingSeven">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSeven">7. Internet of Things Engineer, "IoT Engineer"</button>                     
+            </div>
+            <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <p>IoT engineers play a pivotal role in enabling the deployment of IoT solutions across various sectors, including smart cities, agriculture, healthcare, manufacturing, and more. Their expertise is essential in harnessing the potential of IoT to improve efficiency, enhance decision-making, and create innovative products and services.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header" id="headingEight">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseEight">8. Network Engineer</button>                     
+            </div>
+            <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <p>Network engineers play a vital role in maintaining the reliability and functionality of computer networks, which are the backbone of modern organizations. Their work enables seamless communication, data sharing, and access to critical resources for businesses, institutions, and individuals.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header" id="headingNine">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseNine">9. System Administration</button>                     
+            </div>
+            <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <p>System administrators play a pivotal role in maintaining the stability and security of an organization's IT environment. Their expertise enables businesses to function smoothly, protect sensitive data, and adapt to the ever-changing technology landscape.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header" id="headingTen">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTen">10. Embedded System Engineer</button>                     
+            </div>
+            <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <p>Embedded system engineers are crucial in various industries, including automotive, healthcare, consumer electronics, and industrial automation. Their expertise in designing and maintaining reliable and efficient embedded systems enables the functionality of countless devices and systems in our modern world.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header" id="headingEleven">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseEleven">11. Information Manager</button>                     
+            </div>
+            <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <p>Information managers play a pivotal role in helping organizations harness the power of data to make informed decisions, drive efficiencies, and achieve strategic objectives. Their expertise ensures that data is treated as a valuable asset and managed effectively throughout its lifecycle.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header" id="headingTwelve">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwelve">12. Cybersecurity Specialist</button>                     
+            </div>
+            <div id="collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <p>Cybersecurity specialists are essential in the modern digital landscape, as they play a critical role in protecting organizations from a wide range of cyber threats, including malware, phishing attacks, data breaches, and more. Their expertise is vital for maintaining the integrity and trustworthiness of digital systems and information.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<div id="section4">
+<div class="StudentWork">
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <img src="sw1.jpg" class="card-img-top" alt="Image 1">
+                <div class="card-body">
+                    <h5 class="card-title">Open-house Career Exploration for SHS 2022-2023</h5>
+                    <p class="card-text">An open-house career exploration program provides incoming college students with a well-rounded introduction to the academic and career resources available at the institution.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <img src="sw2.jpg" class="card-img-top" alt="Image 2" style="height: 290px;">
+                <div class="card-body">
+                    <h5 class="card-title">Tech-Crush:Discovering the future of Computer Engineering</h5>
+                    <p class="card-text">Through a series of interactive sessions, presentations, and hands-on experiences, this initiative offers participants a glimpse into the exciting future of technology, highlighting emerging trends, research breakthroughs, and opportunities in the field. </p>
+                </div>
+            </div>
+        </div>
+        <!-- Add more columns for additional picture-text pairs -->
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <img src="sw4.jpg" class="card-img-top" alt="Image 1">
+                <div class="card-body">
+                    <h5 class="card-title">Robotactics 2019</h5>
+                    <p class="card-text">The Robotactics 2019 held by the Society of Computer Engineering Students last October 3, 2019 at the UE Manila - SFC Lobby was a success.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <img src="sw5.jpg" class="card-img-top" alt="Image 2">
+                <div class="card-body">
+                    <h5 class="card-title">Robotactics 2019</h5>
+                    <p class="card-text">Robotactics 2019 is the first ever robotics competition conducted by the SCPES. The said competition is divided into three parts namely: Line Tracing, Prison Break, and the most awaited Sumobot.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Add more columns for additional picture-text pairs -->
+    </div>
+</div>
+</div>
+<br>
+<div id="section5">
+<div class="org">
+    <div class="orgpic">
+        <img src="scpes.png" class="rounded-circle" alt="Sample Image" style="height: 200px;">
+    </div>
+    <div class="organization">
+        <div>Society of Computer Engineering Students of UE Manila <small class="text-muted"><i>Est. 2010</i></small></div>
+        <p>Functions as the official registered organization (RSO), catering to the intetrest of both graduare and undergraduate students enrolled in the Computer engineering program. With a shared commitment to excellence and making a positive impact in the world of technology, we are motivated to reach new heights while fostering a strong sense of camaraderie among our members. Our missin involves creating memorable experiences, organizations enriching events, and advancing our knowledge in computer engineering. ensuring our members are well-prepared to thrive in the dynamic field of technolgy.</p>
+       
+    </div>
+</div>
+</div>
+<div id="section42" class="container-fluid">
+<button id="openModalBtn">Achievements</button>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModalBtn">&times;</span>
+            <h2>Society of Computer Engineering Achievements</h2>
+            <p>• Philippine Association of College and Universities on Accredation (PACUCOA) Level II Accredited</p>
+            <p>• Huawei Academy Partner</p>
+            <p>• 50++ Certified Internet of Things (IoT) Student Associates</p>
+        </div>
+    </div>
+</div>
+</div>
+    <script src="script.js"></script>
+   
+</center>
+</body>
+</html>                            
