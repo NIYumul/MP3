@@ -1,2 +1,2 @@
-# MP3
+# NIYumul.github.io
 Software Design Lab Preliminary Exam
